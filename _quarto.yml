@@ -44,7 +44,7 @@ website:
         text: Transition from Rmd
       - section: quarto-code/index.qmd
         contents: 
-          - quarto-code/ojs.md 
+          - quarto-code/ojs.qmd 
 
 
 format:
