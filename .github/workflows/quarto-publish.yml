@@ -23,8 +23,8 @@ jobs:
       
       # add software dependencies here
       # From https://github.com/actions/setup-python
-       - name: Setup Python
-         uses: actions/setup-python@v3
+      - name: Setup Python
+        uses: actions/setup-python@v3
 
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
