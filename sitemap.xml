@@ -1,51 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://TobGerken.github.io/quarto-website-tutorial/transition-from-rmarkdown.html</loc>
-    <lastmod>2024-01-11T02:47:58.237Z</lastmod>
-  </url>
-  <url>
-    <loc>https://TobGerken.github.io/quarto-website-tutorial/quarto-workflows/jupyter.html</loc>
-    <lastmod>2024-01-11T02:47:58.237Z</lastmod>
-  </url>
-  <url>
-    <loc>https://TobGerken.github.io/quarto-website-tutorial/quarto-workflows/browser.html</loc>
-    <lastmod>2024-01-11T02:47:58.202Z</lastmod>
-  </url>
-  <url>
     <loc>https://TobGerken.github.io/quarto-website-tutorial/quarto-code/python_example.html</loc>
-    <lastmod>2024-01-12T15:59:18.226Z</lastmod>
+    <lastmod>2024-01-12T16:15:04.518Z</lastmod>
   </url>
   <url>
     <loc>https://TobGerken.github.io/quarto-website-tutorial/quarto-code/index.html</loc>
-    <lastmod>2024-01-12T15:22:40.049Z</lastmod>
-  </url>
-  <url>
-    <loc>https://TobGerken.github.io/quarto-website-tutorial/index.html</loc>
-    <lastmod>2024-01-12T15:16:59.320Z</lastmod>
-  </url>
-  <url>
-    <loc>https://TobGerken.github.io/quarto-website-tutorial/explore.html</loc>
-    <lastmod>2024-01-11T02:47:58.174Z</lastmod>
-  </url>
-  <url>
-    <loc>https://TobGerken.github.io/quarto-website-tutorial/learning-more.html</loc>
-    <lastmod>2024-01-11T02:47:58.201Z</lastmod>
-  </url>
-  <url>
-    <loc>https://TobGerken.github.io/quarto-website-tutorial/quarto-code/ojs.html</loc>
-    <lastmod>2024-01-12T15:51:03.482Z</lastmod>
-  </url>
-  <url>
-    <loc>https://TobGerken.github.io/quarto-website-tutorial/quarto-code/Untitled.html</loc>
-    <lastmod>2024-01-12T15:59:03.325Z</lastmod>
-  </url>
-  <url>
-    <loc>https://TobGerken.github.io/quarto-website-tutorial/quarto-workflows/index.html</loc>
-    <lastmod>2024-01-11T02:47:58.237Z</lastmod>
+    <lastmod>2024-01-12T16:15:03.558Z</lastmod>
   </url>
   <url>
     <loc>https://TobGerken.github.io/quarto-website-tutorial/quarto-workflows/rstudio.html</loc>
-    <lastmod>2024-01-11T02:47:58.237Z</lastmod>
+    <lastmod>2024-01-12T16:15:02.774Z</lastmod>
+  </url>
+  <url>
+    <loc>https://TobGerken.github.io/quarto-website-tutorial/quarto-workflows/browser.html</loc>
+    <lastmod>2024-01-12T16:15:01.918Z</lastmod>
+  </url>
+  <url>
+    <loc>https://TobGerken.github.io/quarto-website-tutorial/explore.html</loc>
+    <lastmod>2024-01-12T16:15:01.118Z</lastmod>
+  </url>
+  <url>
+    <loc>https://TobGerken.github.io/quarto-website-tutorial/learning-more.html</loc>
+    <lastmod>2024-01-12T16:14:59.666Z</lastmod>
+  </url>
+  <url>
+    <loc>https://TobGerken.github.io/quarto-website-tutorial/index.html</loc>
+    <lastmod>2024-01-12T16:15:00.606Z</lastmod>
+  </url>
+  <url>
+    <loc>https://TobGerken.github.io/quarto-website-tutorial/transition-from-rmarkdown.html</loc>
+    <lastmod>2024-01-12T16:15:01.586Z</lastmod>
+  </url>
+  <url>
+    <loc>https://TobGerken.github.io/quarto-website-tutorial/quarto-workflows/index.html</loc>
+    <lastmod>2024-01-12T16:15:02.342Z</lastmod>
+  </url>
+  <url>
+    <loc>https://TobGerken.github.io/quarto-website-tutorial/quarto-workflows/jupyter.html</loc>
+    <lastmod>2024-01-12T16:15:03.278Z</lastmod>
+  </url>
+  <url>
+    <loc>https://TobGerken.github.io/quarto-website-tutorial/quarto-code/ojs.html</loc>
+    <lastmod>2024-01-12T16:15:04.114Z</lastmod>
   </url>
 </urlset>
