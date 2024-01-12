@@ -1,7 +1,7 @@
 [
   {
-    "objectID": "quarto-code/quarto_pyhthon.html",
-    "href": "quarto-code/quarto_pyhthon.html",
+    "objectID": "quarto-code/quarto_python.html",
+    "href": "quarto-code/quarto_python.html",
     "title": "Python Example in QMD",
     "section": "",
     "text": "Repeating the Python Example, but with a python code cell. See quarto documentation for details.\n\n\n\n\n&lt;Axes: &gt;\n(a) A histogram of the penguin dataset\n\n\n\n\n\n\n(b)\n\n\n\nFigure 1: ?(caption)\n\n\nTest"
