@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "quarto-code/ojs.html",
+    "href": "quarto-code/ojs.html",
+    "title": "OJS Example",
+    "section": "",
+    "text": "See Quarto OJS documentation for details.\nThe OJS plot gallery provides examples.\nRead and plot a CSV of NOAA’s Monthly CO2 concentration data from Mauna Loa:\n\ndata = {\n  const co2data = await FileAttachment(\"co2_mm.csv\")\n    .csv({ typed: true });\n  return co2data.map(d =&gt; { \n    d[\"decimal date\"] = Number(d[\"decimal date\"]);\n    d.average = Number(d.average); \n    return d; \n  });\n}\nPlot.plot({\n  marks: [\n    Plot.line(data, \n      { x: \"decimal date\", y: \"average\"}, \n      { stroke: \"black\" }\n    )\n  ]\n})"
+  },
+  {
     "objectID": "quarto-workflows/jupyter.html",
     "href": "quarto-workflows/jupyter.html",
     "title": "From Jupyter",
@@ -320,5 +327,19 @@
     "title": "From RStudio",
     "section": "Troubleshooting",
     "text": "Troubleshooting\nIf you have trouble rendering your website after for example changing the extenstion of a file from .md to .qmd, refreshing your RStudio often helps. Do this by clicking the project name at the upper right of the RStudio window (in this case, quarto-website-tutorial), and underneath the “close project” section, click the same name of your project: quarto-website-tutorial. This will relaunch your whole project afresh."
+  },
+  {
+    "objectID": "quarto-code/index.html",
+    "href": "quarto-code/index.html",
+    "title": "Using Code and Data With Quarto",
+    "section": "",
+    "text": "This is primarily based on the Quarto Documentation and Interactivity Section."
+  },
+  {
+    "objectID": "quarto-code/index.html#sources",
+    "href": "quarto-code/index.html#sources",
+    "title": "Using Code and Data With Quarto",
+    "section": "",
+    "text": "This is primarily based on the Quarto Documentation and Interactivity Section."
   }
 ]

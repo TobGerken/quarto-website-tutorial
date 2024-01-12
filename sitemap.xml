@@ -1,35 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-code/ojs.html</loc>
+    <lastmod>2024-01-12T15:22:01.349Z</lastmod>
+  </url>
+  <url>
     <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/jupyter.html</loc>
-    <lastmod>2024-01-11T02:53:40.458Z</lastmod>
+    <lastmod>2024-01-12T15:22:00.569Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/index.html</loc>
-    <lastmod>2024-01-11T02:53:39.510Z</lastmod>
+    <lastmod>2024-01-12T15:21:59.613Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/quarto-website-tutorial/transition-from-rmarkdown.html</loc>
-    <lastmod>2024-01-11T02:53:38.778Z</lastmod>
+    <lastmod>2024-01-12T15:21:58.869Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/quarto-website-tutorial/index.html</loc>
-    <lastmod>2024-01-11T02:53:37.802Z</lastmod>
+    <lastmod>2024-01-12T15:21:57.873Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/quarto-website-tutorial/learning-more.html</loc>
-    <lastmod>2024-01-11T02:53:36.870Z</lastmod>
+    <lastmod>2024-01-12T15:21:56.909Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/quarto-website-tutorial/explore.html</loc>
-    <lastmod>2024-01-11T02:53:38.302Z</lastmod>
+    <lastmod>2024-01-12T15:21:58.401Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/browser.html</loc>
-    <lastmod>2024-01-11T02:53:39.118Z</lastmod>
+    <lastmod>2024-01-12T15:21:59.209Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/rstudio.html</loc>
-    <lastmod>2024-01-11T02:53:39.954Z</lastmod>
+    <lastmod>2024-01-12T15:22:00.065Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-code/index.html</loc>
+    <lastmod>2024-01-12T15:22:00.837Z</lastmod>
   </url>
 </urlset>
