@@ -6,13 +6,34 @@ echo: false
 Repeating the [Python Example](python_example.ipynb), but with a python code cell. See [quarto documentation](https://quarto.org/docs/reference/cells/cells-jupyter.html) for details.  
 
 ```{python}
-#| label: fig-polar
+#| label: fig-penguins
 #| echo: false
 #| fig-cap: "A histogram of the penguin dataset"
 
 import pandas as pd
+import matplotlib.pyplot as plt
 df=pd.read_csv('palmer-penguins.csv')
-df['bill_length_mm'].hist()
+fig, ax = plt.subplots()
+df['bill_depth_mm'].hist(ax=ax)
+plt.show()
+```
+
+```{python}
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
 ```
 
 Test
