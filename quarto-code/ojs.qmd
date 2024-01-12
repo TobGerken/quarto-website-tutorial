@@ -30,12 +30,10 @@ Plot.plot({
   ]
 })
 ```
+A simple example based on Allison Horst's [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/) dataset. Here we look at how penguin body mass varies across both sex and species (use the provided inputs to filter the dataset by bill length and island):
 
 ```{ojs}
-data = FileAttachment("palmer-penguins.csv").csv({ typed: true })
-```
-
-```{ojs}
+//| panel: input
 viewof bill_length_min = Inputs.range(
   [32, 50], 
   {value: 35, step: 1, label: "Bill length (min):"}
@@ -47,6 +45,10 @@ viewof islands = Inputs.checkbox(
   }
 )
 ```
+
+::: {.panel-tabset}
+
+## Plot
 
 ```{ojs}
 Plot.rectY(filtered, 
@@ -66,4 +68,23 @@ Plot.rectY(filtered,
     ]
   }
 )
+```
+
+## Data
+
+```{ojs}
+Inputs.table(filtered)
+```
+
+:::
+
+```{ojs}
+data_p = FileAttachment("palmer-penguins.csv").csv({ typed: true })
+```
+
+```{ojs}
+filtered = data_p.filter(function(penguin) {
+  return bill_length_min < penguin.bill_length_mm &&
+         islands.includes(penguin.island);
+})
 ```
