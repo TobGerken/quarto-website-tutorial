@@ -3,8 +3,9 @@
 .RData
 .Ruserdata
 
-/.quarto/
+.quarto
 *_cache/
-/_site/*
+_site/
 
 .DS_Store
+./quarto-code/.ipynb_checkpoints/
