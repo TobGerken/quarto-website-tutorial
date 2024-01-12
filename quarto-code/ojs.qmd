@@ -9,6 +9,8 @@ The [OJS plot gallery](https://observablehq.com/@observablehq/plot-gallery) prov
 Read and plot a CSV of NOAA's Monthly [CO2 concentration data](https://gml.noaa.gov/ccgg/trends/data.html) from Mauna Loa:
 
 ```{ojs}
+//| echo: false 
+// echo false makes the code block not display
 data = {
   const co2data = await FileAttachment("co2_mm.csv")
     .csv({ typed: true });
