@@ -1,0 +1,8 @@
+---
+title: "Using Code and Data With Quarto"
+subtitle: "Playing Around"
+---
+
+## Sources
+
+This is primarily based on the [Quarto Documentation](https://quarto.org/docs/) and [Interactivity Section](https://quarto.org/docs/interactive/). 

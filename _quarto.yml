@@ -42,6 +42,9 @@ website:
       - learning-more.qmd
       - href: transition-from-rmarkdown.qmd
         text: Transition from Rmd
+        - section: quarto-code/index.qmd
+          contents: 
+          - quarto-code/ojs.md 
 
 
 format:
