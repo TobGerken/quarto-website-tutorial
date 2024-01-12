@@ -1,0 +1,16 @@
+---
+title: Python Example in QMD
+echo: false
+---
+
+Repeating the [Python Example](python_example.ipynb), but with a python code cell. See [quarto documentation](https://quarto.org/docs/reference/cells/cells-jupyter.html) for details.  
+
+```{python}
+#| label: fig-polar
+#| echo: false
+#| fig-cap: "A histogram of the penguin dataset"
+
+import pandas as pd
+df=pd.read_csv('palmer-penguins.csv')
+df['bill_length_mm'].hist()
+```

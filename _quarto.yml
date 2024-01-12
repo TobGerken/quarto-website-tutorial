@@ -46,6 +46,7 @@ website:
         contents: 
           - quarto-code/ojs.qmd 
           - quarto-code/python_example.ipynb
+          - quarto-code/quarto_python.qmd
 
 
 format:
