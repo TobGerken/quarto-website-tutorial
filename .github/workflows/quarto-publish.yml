@@ -24,7 +24,12 @@ jobs:
       # add software dependencies here
       # From https://github.com/actions/setup-python
       - name: Setup Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+          cache: 'pip'
+      #- run: pip install jupyter # (if jupyter is not part of your requirements.txt)
+      - run: pip install -r requirements.txt  
 
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
